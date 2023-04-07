@@ -1,17 +1,76 @@
 /* Google Font Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    html {
-        scroll-behavior: smooth;
-    }
+  html {
+    scroll-behavior: smooth;
+  }
 
-    body {
-      font-family: Poppins, sans-serif;
-      
-    }
+  body {
+    font-family: Poppins, sans-serif;
+  }
+
+  section{
+    @apply
+    py-[120px]
+  }
+}
+
+@layer components {
+  
+  nav{
+    /* box-shadow: inset 0 -1px 0 0 rgba(0,0,0, 0.1); */
+    @apply
+    fixed inset-x-0 z-10 bg-white/70 py-6 transition duration-300 backdrop-blur-md
+  }
+
+  .list-nav{
+    @apply
+    hover:text-primary text-base font-medium text-[#909090]
+  }
+  .hamburger-top{
+    @apply
+    m-auto h-0.5 w-6 rounded bg-[#757575] transition duration-300
+  }
+  .hamburger-middle{
+    @apply
+    m-auto mt-[6px] h-0.5 w-6 rounded bg-[#757575] transition duration-300
+  }
+  .hamburger-buttom{
+    @apply
+    m-auto mt-[6px] h-0.5 w-6 rounded bg-[#757575] transition duration-300
+  }
+
+  .menu-list {
+    @apply
+    absolute inset-x-0 top-20 flex -translate-x-full 
+    flex-col items-center gap-8 bg-white py-8 opacity-0 transition 
+    duration-300 peer-checked:translate-x-0 peer-checked:opacity-100 lg:relative 
+    lg:top-0 lg:translate-x-0 lg:flex-row lg:bg-transparent lg:py-0 lg:opacity-100
+  }
+
+  .btn-primary {
+    @apply text-base font-semibold text-white bg-primary py-3 px-6 rounded-full 
+    hover:shadow-xl transition duration-300 ease-in-out tracking-wider;
+  }
+
+  .btn-secondary {
+    @apply border-solid border-2 hover:border-secondary
+    text-base font-semibold text-[#757575] py-3 px-6 
+    rounded-full hover:shadow-xl 
+    transition duration-300 ease-in-out tracking-wider
+    hover:text-dark;
+  }
+
+  .bg-gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary;
+  }
 }

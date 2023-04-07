@@ -1,21 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/dist/img/favicon1.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="/dist/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/dist/img/favicon1.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/dist/output.css" />
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Portfolio</title>
-</head>
-<body>
-    <h1 class="m-5 text-3xl font-bold underline lg:m-14">
-        Fouiyouuh
-    </h1>
-    <i data-feather="github" class="" width="20"></i>
+  </head>
+  <body>
+    <!-- Navbar START -->
+    <nav id="nav-menu">
+      <div class="container flex items-center justify-between">
+        <div class="px-4">
+          <a href="#home" class="font-bold text-2xl block py-1 bg-gradient-text">bedull.</a>
+        </div>
 
+        <input type="checkbox" class="peer hidden" name="hamburger" id="hamburger">
+        <label class="peer-checked:hamburger block cursor-pointer p-2 md:hidden" for="hamburger">
+          <div class="hamburger-top"></div>
+          <div class="hamburger-middle"></div>
+          <div class="hamburger-buttom"></div>
+        </label>
+
+        <div class="menu-list">
+
+          <a class="list-nav" href="#home">Home</a>
+
+          <a class="list-nav" href="#about">About</a>
+          
+          <a class="list-nav" href="#experience">Experience</a>
+          
+          <a class="list-nav" href="#education">Education</a>
+          
+          <a class="list-nav" href="#potrfolio">Potrfolio</a>
+          
+          <a class="list-nav" href="#contact">Contact</a>
+          
+          <!-- Dark Mode -->
+          <!-- <button class="cursor-pointer">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_7_373)">
+              <path d="M20 25C22.7614 25 25 22.7614 25 20C25 17.2386 22.7614 15 20 15C17.2386 15 15 17.2386 15 20C15 22.7614 17.2386 25 20 25Z" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 9V11" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 29V31" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.22 12.22L13.64 13.64" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M26.3601 26.36L27.7801 27.78" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 20H11" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M29 20H31" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.22 27.78L13.64 26.36" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M26.3601 13.64L27.7801 12.22" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_7_373">
+              <rect width="24" height="24" fill="white" transform="translate(8 8)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+          </button> -->
+        </div>
+
+
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <!-- Hero Section START -->
+    <section id="home">
+      <div class="container">
+        <div class="flex justify-center items-center flex-col lg:h-[496px]">
+          <h1 class="text-[32px] font-semibold md:text-[36px] lg:text-6xl text-dark">Hi, There! 👋</h1>
+          <p class="text-primary lg:mt-4 text-[32px] font-semibold md:text-[36px] lg:text-6xl">I’m Abdul Fattah</p>
+
+          <h2 class="text-dark lg:my-8 mt-3 text-base">Front-End & <span class="text-dark font-semibold">UI/UX Design </span>Enthusiast ✌</h2>
+
+          <!-- <p class="text-[#757575] leading-relaxed mb-10 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque cupiditate debitis quos voluptatibus adipisci quo sed necessitatibus, voluptates minima non ratione mollitia a in similique obcaecati commodi unde nemo. Reprehenderit similique dolor eius soluta cupiditate. Dolor earum facere beatae atque similique veniam suscipit, eveniet ullam aspernatur iusto, tempora in!</p> -->
+
+          <div class="justify-center content-center mt-10">
+            <a href="http://wa.me/6282246946022" class="btn-secondary mr-4">Contact Me</a>
+
+            <a href="#" class="btn-primary">My Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section END -->
+
+    <div class="mb-[500px]"></div>
 
     <script src="/src/script.js"></script>
-</body>
+  </body>
 </html>
