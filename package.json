@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "tailwind-scrollbar": "3.0.0",
     "tailwindcss": "^3.3.1"
   },
   "name": "portfolio",
@@ -71,6 +72,7 @@
     "source-map-js": "^1.0.2",
     "sucrase": "^3.31.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
+    "tailwind-scrollbar": "^3.0.0",
     "thenify": "^3.3.1",
     "thenify-all": "^1.6.0",
     "to-regex-range": "^5.0.1",
