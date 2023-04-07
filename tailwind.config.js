@@ -9,7 +9,7 @@ module.exports = {
         // padding: '1.5rem',
         DEFAULT: "1rem",
         sm: "1.5rem",
-        sm: "3rem",
+        md: "3rem",
         lg: "4.5rem",
         screens: {
           sm: "428px",
@@ -24,7 +24,11 @@ module.exports = {
         primary: "#CB3066",
         secondary: "#16BFFD",
         dark: "#333333",
-        white: "#F7F7F7",
+        'white': {
+          100: '#fafafa',
+          200: '#f3f3f3',
+          300: '#F7F7F7',
+        },
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
