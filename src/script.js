@@ -16,7 +16,8 @@ window.addEventListener('scroll', function() {
 
 // Auto typed
 var typed = new Typed('.auto-type', {
-    strings : ['UI/UX Design', 'Front End', 'Product Management'],
+    // strings : ['UI/UX Design', 'Front End', 'Product Management'],
+    strings : ['UI/UX Design', 'Product Management'],
     typeSpeed : 150,
     backSpeed : 150,
     loop : true

@@ -21,18 +21,33 @@
           <a href="#home" class="font-bold text-2xl block py-1 bg-gradient-text">bedull.</a>
         </div>
 
+        <!-- Dark Mode -->
+        <!-- <button class="cursor-pointer">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_7_373)">
+                <path d="M20 25C22.7614 25 25 22.7614 25 20C25 17.2386 22.7614 15 20 15C17.2386 15 15 17.2386 15 20C15 22.7614 17.2386 25 20 25Z" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M20 9V11" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M20 29V31" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12.22 12.22L13.64 13.64" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M26.3601 26.36L27.7801 27.78" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9 20H11" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M29 20H31" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12.22 27.78L13.64 26.36" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M26.3601 13.64L27.7801 12.22" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_7_373">
+                  <rect width="24" height="24" fill="white" transform="translate(8 8)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button> -->
         <input type="checkbox" class="peer hidden" name="hamburger" id="hamburger" />
         <label class="peer-checked:hamburger block cursor-pointer p-2 md:hidden" for="hamburger" id="hamburger2">
           <div class="hamburger-line"></div>
           <div class="hamburger-line"></div>
           <div class="hamburger-line"></div>
         </label>
-
-        <!-- <button id="hamburger" name="hamburger" type="button" class="block p-2  md:hidden cursor-pointer">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button> -->
 
         <div class="menu-list">
           <a class="list-nav" href="#home">Home</a>
@@ -46,29 +61,6 @@
           <a class="list-nav" href="#portfolio">Portfolio</a>
 
           <a class="list-nav" href="#contact">Contact</a>
-
-          <!-- Dark Mode -->
-          <!-- <button class="cursor-pointer">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_7_373)">
-              <path d="M20 25C22.7614 25 25 22.7614 25 20C25 17.2386 22.7614 15 20 15C17.2386 15 15 17.2386 15 20C15 22.7614 17.2386 25 20 25Z" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M20 9V11" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M20 29V31" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M12.22 12.22L13.64 13.64" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M26.3601 26.36L27.7801 27.78" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M9 20H11" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M29 20H31" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M12.22 27.78L13.64 26.36" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M26.3601 13.64L27.7801 12.22" stroke="#909090" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_7_373">
-              <rect width="24" height="24" fill="white" transform="translate(8 8)"/>
-              </clipPath>
-              </defs>
-              </svg>
-              
-          </button> -->
         </div>
       </div>
     </nav>
@@ -281,10 +273,18 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           <div href="#" class="flex flex-col rounded-3xl hover:-translate-y-2 transition-all duration-300">
             <img src="/dist/img/portfolio/Potfolio.png" alt="" />
-            <div class="-mt-48 px-4 py-6 bg-white-100/70">
+            <div class="-mt-48 px-4 py-6 bg-white-100/80 backdrop-blur-sm">
               <h4 class="text-dark font-semibold lg:text-xl">UX Case Study: Coursee</h4>
-              <p class="text-dark lg:text-base mt-2 mb-4">Coursee App merupakan sebuah Platform aplikasi kursus berbasis mobile.</p>
-              <a href="#" target="_blank" class="inline-flex btn-primary hover:scale-105 transition-all active:scale-95 duration-300 bg-primary text-white-100">View Project</a>
+              <p class="text-dark lg:text-base mt-2 mb-6">Coursee App merupakan sebuah Platform aplikasi kursus berbasis mobile.</p>
+              <div class="w-full flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  <img src="./dist/img/logo-tools/Figma-logo.png" alt="" class="h-5" />
+                  <img src="./dist/img/logo-tools/Tailwind_CSS_Logo.png" alt="" class="h-5" />
+                  <img src="./dist/img/logo-tools/Bootstrap_logo.png" alt="" class="h-5" />
+                  <img src="./dist/img/logo-tools/Bootstrap_logo.png" alt="" class="h-5" />
+                </div>
+                <a href="#" target="_blank" class="inline-flex btn-primary hover:scale-105 transition-all active:scale-95 duration-300 bg-primary text-white-100">View Project</a>
+              </div>
             </div>
           </div>
         </div>
