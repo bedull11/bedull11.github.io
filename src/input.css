@@ -17,14 +17,11 @@
     scrollbar-thin scrollbar-track-transparent scrollbar-thumb-secondary
   }
 
-  /* *::-webkit-scrollbar-thumb {
-    border-radius: px;
-  } */
-
   /* section{
     @apply
     py-[120px]
   } */
+
   h1{
     @apply
     font-semibold text-primary
@@ -43,17 +40,15 @@
     @apply
     hover:text-primary text-base font-medium text-[#909090]
   }
-  .hamburger-top{
+
+  .hamburger-line {
     @apply
-    m-auto h-0.5 w-6 rounded bg-[#757575] transition duration-300
+    m-auto h-0.5 w-6 my-[6px] rounded bg-[#757575] transition duration-300
   }
-  .hamburger-middle{
+
+  .hamburger-active > div:nth-child(1) {
     @apply
-    m-auto mt-[6px] h-0.5 w-6 rounded bg-[#757575] transition duration-300
-  }
-  .hamburger-buttom{
-    @apply
-    m-auto mt-[6px] h-0.5 w-6 rounded bg-[#757575] transition duration-300
+    rotate-45
   }
 
   .menu-list {

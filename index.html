@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/dist/img/favicon1.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/dist/output.css" />
+    <!-- Icon Feather -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -19,11 +22,17 @@
         </div>
 
         <input type="checkbox" class="peer hidden" name="hamburger" id="hamburger" />
-        <label class="peer-checked:hamburger block cursor-pointer p-2 md:hidden" for="hamburger">
-          <div class="hamburger-top"></div>
-          <div class="hamburger-middle"></div>
-          <div class="hamburger-buttom"></div>
+        <label class="peer-checked:hamburger block cursor-pointer p-2 md:hidden" for="hamburger" id="hamburger2">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
         </label>
+
+        <!-- <button id="hamburger" name="hamburger" type="button" class="block p-2  md:hidden cursor-pointer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button> -->
 
         <div class="menu-list">
           <a class="list-nav" href="#home">Home</a>
@@ -72,7 +81,7 @@
           <h1 class="text-[32px] font-semibold md:text-[36px] lg:text-6xl text-dark">Hi, There! 👋</h1>
           <p class="text-primary lg:mt-4 text-[32px] font-semibold md:text-[36px] lg:text-6xl">I’m Abdul Fattah</p>
 
-          <h2 class="text-dark lg:my-8 mt-3 text-base">Front-End & <span class="font-semibold">UI/UX Design </span>Enthusiast ✌</h2>
+          <h2 class="text-dark lg:my-8 mt-3 text-base"><span class="font-semibold auto-type"></span> Enthusiast ✌</h2>
 
           <!-- <p class="text-[#757575] leading-relaxed mb-10 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque cupiditate debitis quos voluptatibus adipisci quo sed necessitatibus, voluptates minima non ratione mollitia a in similique obcaecati commodi unde nemo. Reprehenderit similique dolor eius soluta cupiditate. Dolor earum facere beatae atque similique veniam suscipit, eveniet ullam aspernatur iusto, tempora in!</p> -->
 
@@ -344,9 +353,7 @@
                 ></textarea>
               </div>
               <div class="w-full">
-                <button class="text-base font-semibold text-primary bg-white-100 py-3 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">
-                  Send Massage
-                </button>
+                <button class="text-base font-semibold text-primary bg-white-100 py-3 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send Massage</button>
               </div>
             </form>
           </div>
