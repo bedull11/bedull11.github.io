@@ -689,11 +689,6 @@ nav{
   transition-duration: 300ms;
 }
 
-/* .hamburger-active > div:nth-child(1) {
-    @apply
-    rotate-45
-  } */
-
 .menu-list{
   position: absolute;
   left: 0px;
@@ -850,10 +845,6 @@ nav{
   margin-right: 0.25rem;
 }
 
-.-mt-48{
-  margin-top: -12rem;
-}
-
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -952,10 +943,6 @@ nav{
 
 .h-5{
   height: 1.25rem;
-}
-
-.h-4{
-  height: 1rem;
 }
 
 .w-10{
@@ -1081,16 +1068,6 @@ nav{
   border-color: rgb(192 192 192 / var(--tw-border-opacity));
 }
 
-.border-dark{
-  --tw-border-opacity: 1;
-  border-color: rgb(51 51 51 / var(--tw-border-opacity));
-}
-
-.border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgb(203 48 102 / var(--tw-border-opacity));
-}
-
 .bg-\[\#D0FEFE\]{
   --tw-bg-opacity: 1;
   background-color: rgb(208 254 254 / var(--tw-bg-opacity));
@@ -1106,17 +1083,13 @@ nav{
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
-.bg-white-100\/80{
-  background-color: rgb(250 250 250 / 0.8);
-}
-
-.bg-dark{
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
-}
-
 .p-2{
   padding: 0.5rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px-3{
@@ -1147,11 +1120,6 @@ nav{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-12{
@@ -1287,12 +1255,6 @@ nav{
 .text-white-300{
   --tw-text-opacity: 1;
   color: rgb(247 247 247 / var(--tw-text-opacity));
-}
-
-.backdrop-blur-sm{
-  --tw-backdrop-blur: blur(4px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition{

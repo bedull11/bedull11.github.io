@@ -46,11 +46,6 @@
     m-auto h-0.5 w-6 my-[6px] rounded bg-[#757575] transition duration-300
   }
 
-  /* .hamburger-active > div:nth-child(1) {
-    @apply
-    rotate-45
-  } */
-
   .menu-list {
     @apply
     absolute inset-x-0 top-20 flex -translate-x-full 
