@@ -1470,6 +1470,11 @@ nav{
     padding-bottom: 7rem;
   }
 
+  .lg\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .lg\:pb-20{
     padding-bottom: 5rem;
   }
