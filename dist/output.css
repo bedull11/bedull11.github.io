@@ -674,11 +674,45 @@ nav{
 }
 
 .hamburger-line{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+  height: 0.125rem;
+  width: 0.75rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(117 117 117 / var(--tw-bg-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.hamburger-line-middle{
   margin: auto;
   margin-top: 6px;
   margin-bottom: 6px;
   height: 0.125rem;
   width: 1.5rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(117 117 117 / var(--tw-bg-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.hamburger-line-lower{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+  height: 0.125rem;
+  width: 0.75rem;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(117 117 117 / var(--tw-bg-opacity));
@@ -1458,11 +1492,6 @@ nav{
   .lg\:px-9{
     padding-left: 2.25rem;
     padding-right: 2.25rem;
-  }
-
-  .lg\:py-16{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .lg\:py-28{

@@ -24,10 +24,10 @@ module.exports = {
         primary: "#CB3066",
         secondary: "#16BFFD",
         dark: "#333333",
-        'white': {
-          100: '#fafafa',
-          200: '#f3f3f3',
-          300: '#F7F7F7',
+        white: {
+          100: "#fafafa",
+          200: "#f3f3f3",
+          300: "#F7F7F7",
         },
       },
       fontFamily: {
@@ -35,7 +35,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('tailwind-scrollbar'),
-  ],
+  plugins: [require("tailwind-scrollbar")],
 };
