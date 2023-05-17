@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   // content: ["./**/*.{html,js}"],
   content: ["./index.html"],
   theme: {
+    screens: {
+      // xs: "428px",
+      'sm': '428px',
+      'md': '744px',
+      'lg': '1440px',
+      ...defaultTheme.screens,
+    },
     container: {
       center: true,
       padding: {
@@ -11,14 +19,9 @@ module.exports = {
         sm: "1.5rem",
         md: "3rem",
         lg: "4.5rem",
-        screens: {
-          sm: "428px",
-          md: "744px",
-          lg: "1440px",
-        },
       },
     },
-
+    
     extend: {
       colors: {
         primary: "#CB3066",

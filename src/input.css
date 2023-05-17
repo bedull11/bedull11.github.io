@@ -43,15 +43,15 @@
 
   .hamburger-line {
     @apply
-    me-auto h-0.5 w-3 my-[6px] rounded bg-[#757575] transition duration-300
+    me-auto h-0.5 w-6 my-[6px] rounded bg-[#757575] transition duration-300
   }
   .hamburger-line-middle {
     @apply
-    m-auto h-0.5 w-6 my-[6px] rounded bg-[#757575] transition duration-300
+    me-auto h-0.5 w-4 my-[6px] rounded bg-[#757575] transition duration-300
   }
   .hamburger-line-lower {
     @apply
-    ms-auto h-0.5 w-3 my-[6px] rounded bg-[#757575] transition duration-300
+    me-auto h-0.5 w-2 my-[6px] rounded bg-[#757575] transition duration-300
   }
 
   .menu-list {
