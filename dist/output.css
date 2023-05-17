@@ -895,8 +895,8 @@ nav{
   position: relative;
 }
 
-.-left-3{
-  left: -0.75rem;
+.-left-44{
+  left: -11rem;
 }
 
 .bottom-8{
@@ -919,16 +919,8 @@ nav{
   top: 488px;
 }
 
-.-left-44{
-  left: -11rem;
-}
-
 .m-auto{
   margin: auto;
-}
-
-.m-4{
-  margin: 1rem;
 }
 
 .mx-1{
@@ -939,11 +931,6 @@ nav{
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .mb-1{
@@ -1257,30 +1244,6 @@ nav{
   padding-top: 2rem;
 }
 
-.pt-\[120px\]{
-  padding-top: 120px;
-}
-
-.pt-\[1120px\]{
-  padding-top: 1120px;
-}
-
-.pt-\[220px\]{
-  padding-top: 220px;
-}
-
-.pt-\[200px\]{
-  padding-top: 200px;
-}
-
-.pt-\[188px\]{
-  padding-top: 188px;
-}
-
-.pt-\[158px\]{
-  padding-top: 158px;
-}
-
 .pt-\[156px\]{
   padding-top: 156px;
 }
@@ -1482,6 +1445,10 @@ nav{
 }
 
 @media (min-width: 1024px){
+  .lg\:-left-3{
+    left: -0.75rem;
+  }
+
   .lg\:bottom-\[200px\]{
     bottom: 200px;
   }
@@ -1494,16 +1461,12 @@ nav{
     left: 185px;
   }
 
-  .lg\:right-\[185px\]{
-    right: 185px;
-  }
-
-  .lg\:-left-3{
-    left: -0.75rem;
-  }
-
   .lg\:right-0{
     right: 0px;
+  }
+
+  .lg\:right-\[185px\]{
+    right: 185px;
   }
 
   .lg\:my-8{
@@ -1527,6 +1490,10 @@ nav{
     margin-right: 1rem;
   }
 
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
   .lg\:mt-12{
     margin-top: 3rem;
   }
@@ -1535,20 +1502,12 @@ nav{
     margin-top: 1rem;
   }
 
-  .lg\:mt-0{
-    margin-top: 0px;
-  }
-
   .lg\:h-\[496px\]{
     height: 496px;
   }
 
   .lg\:w-1\/2{
     width: 50%;
-  }
-
-  .lg\:w-\[6\]{
-    width: 6;
   }
 
   .lg\:w-\[637px\]{
