@@ -1161,6 +1161,10 @@ nav{
   padding: 0.5rem;
 }
 
+.p-10{
+  padding: 2.5rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1214,6 +1218,21 @@ nav{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pb-10{
@@ -1469,6 +1488,14 @@ nav{
     right: 185px;
   }
 
+  .lg\:right-1{
+    right: 0.25rem;
+  }
+
+  .lg\:right-3{
+    right: 0.75rem;
+  }
+
   .lg\:my-8{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -1514,6 +1541,18 @@ nav{
     width: 637px;
   }
 
+  .lg\:w-\[\]{
+    width: ;
+  }
+
+  .lg\:w-\[48px\]{
+    width: 48px;
+  }
+
+  .lg\:w-\[40px\]{
+    width: 40px;
+  }
+
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1543,6 +1582,16 @@ nav{
   .lg\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .lg\:px-9{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .lg\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .lg\:pt-24{
